@@ -356,9 +356,3 @@ This project demonstrates:
 - Secure private networking
 - Internal RPC communication
 - DevOps automation practices
-
----
-
-# Author
-
-Sejal Thakur
