@@ -1,0 +1,21 @@
+# AWS Keys
+*.pem
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Environment files
+.env
+
+# IDE files
+.vscode/
+.idea/
