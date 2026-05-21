@@ -4,9 +4,9 @@ import requests
 app = FastAPI()
 
 workers = [
-    "http://10.0.2.10:9000/process",
-    "http://10.0.2.11:9000/process",
-    "http://10.0.2.12:9000/process"
+    "http://10.0.2.170:9000/process",
+    "http://10.0.2.64:9000/process",
+    "http://10.0.2.227:9000/process"
 ]
 
 counter = 0
