@@ -292,27 +292,6 @@ This communication never traverses the public internet.
 ### Public Exposure Limitation
 - Only API server exposed publicly
 
----
-
-# Scalability Design
-
-This architecture can scale horizontally.
-
-Possible production improvements:
-
-| Component | Improvement |
-|---|---|
-| API Layer | Application Load Balancer |
-| Worker Layer | Auto Scaling Group |
-| Orchestration | Kubernetes / EKS |
-| Queue System | RabbitMQ / Kafka |
-| Monitoring | Prometheus + Grafana |
-| Logging | CloudWatch |
-| Secrets | AWS Secrets Manager |
-| HTTPS | ACM + Load Balancer |
-| CI/CD | GitHub Actions |
-
----
 
 # Monitoring & Observability (Future Improvements)
 
